@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.CarShareApp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SEND_SMS"></uses-permission>
+    <uses-permission android:name="android.permission.RECEIVE_SMS"></uses-permission>
+    <uses-permission android:name="android.permission.READ_SMS"></uses-permission>
+
+    <application
+
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@drawable/icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name="com.example.CarShareApp.MainActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name="com.example.CarShareApp.ui.home.payment.VerifyOTPActivity"></activity>
+        <activity
+            android:name="com.example.CarShareApp.ui.home.user.UsersManagementActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.CarShareApp.ui.home.user.AddUserActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.CarShareApp.ui.login.EditProfileActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.CarShareApp.ui.login.EditUserProfileActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.CarShareApp.ui.register.RegisterActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.CarShareApp.DashboardActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.example.CarShareApp.ui.admin.user.CreateUserInfoActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name="com.example.CarShareApp.ui.register.RegisterInforActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name="com.example.CarShareApp.ui.login.LoginActivity"
+            android:windowSoftInputMode="stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+        <activity
+            android:name="com.example.CarShareApp.ui.admin.car.ListCarActivity"
+            android:screenOrientation="portrait" >
+
+        </activity>
+        <activity
+            android:name="com.example.CarShareApp.ui.admin.user.CreateUserActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.example.CarShareApp.ui.home.car.RecyclerCarActivity"
+            android:windowSoftInputMode="stateHidden">
+
+        </activity>
+        <activity
+            android:name="com.example.CarShareApp.ui.admin.booking.ListBookingActivity"
+            android:screenOrientation="portrait">
+
+        </activity>
+        <activity android:name="com.example.CarShareApp.ui.home.booking.ListBookingUserActivity" android:screenOrientation="portrait">
+
+        </activity>
+        <activity android:name="com.example.CarShareApp.ui.admin.bill.ListBillActivity">
+     
+        </activity>
+        <activity android:name="com.example.CarShareApp.ui.home.car.CarDetailsActivity">
+
+        </activity>
+        <activity
+            android:name="com.example.CarShareApp.ui.admin.user.UpdateUserActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.CarShareApp.ui.admin.user.UpdateUserInfoActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.example.CarShareApp.ui.forgot.ForgotPasswordActivity" />
+
+        <activity android:name="com.example.CarShareApp.ui.home.payment.CreditCardActivity"></activity>
+
+        <activity android:name="com.example.CarShareApp.ui.home.payment.ChooseTimeActivity">
+
+
+        </activity>
+
+        <activity android:name="com.example.CarShareApp.ui.home.booking.BookingDetailsActivity">
+
+        </activity>
+
+        <activity android:name="com.example.CarShareApp.ui.admin.car.CreateCarActivity" />
+        <activity android:name="com.example.CarShareApp.ui.admin.car.UpdateCarActivity" />
+        <activity android:name="com.example.CarShareApp.ui.admin.statistical.RevenueYearActivity"></activity>
+        <activity android:name="com.example.CarShareApp.ui.admin.statistical.RevenueBrandActivity"></activity>
+
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+        <!-- Set custom default icon. This is used when no icon is set for incoming notification messages.
+     See README(https://goo.gl/l4GJaQ) for more. -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/ic_stat_ic_notification" />
+        <!-- Set color used with incoming notification messages. This is used when no color is set for the incoming
+             notification message. See README(https://goo.gl/6BKBk7) for more. -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/ColorBlue" />
+    </application>
+
+</manifest>

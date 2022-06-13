@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/background_success.xml" value="0.3265625" />
+        <entry key="app/src/main/res/drawable/ic_baseline_airline_seat_individual_suite_24.xml" value="0.3265625" />
+        <entry key="app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.3265625" />
+        <entry key="app/src/main/res/font/aclonica.xml" value="0.340625" />
+        <entry key="app/src/main/res/font/antic.xml" value="0.340625" />
+        <entry key="app/src/main/res/font/atomic_age.xml" value="0.340625" />
+        <entry key="app/src/main/res/font/concert_one.xml" value="0.340625" />
+        <entry key="app/src/main/res/layout/activity_add_user.xml" value="0.3104166666666667" />
+        <entry key="app/src/main/res/layout/activity_booking_details.xml" value="0.3104166666666667" />
+        <entry key="app/src/main/res/layout/activity_item_car.xml" value="0.3104166666666667" />
+        <entry key="app/src/main/res/layout/activity_item_user.xml" value="0.3104166666666667" />
+        <entry key="app/src/main/res/layout/activity_listview_bill.xml" value="0.3104166666666667" />
+        <entry key="app/src/main/res/layout/activity_listview_booking.xml" value="0.3104166666666667" />
+        <entry key="app/src/main/res/layout/activity_listview_booking_admin.xml" value="0.3104166666666667" />
+        <entry key="app/src/main/res/layout/activity_listview_car.xml" value="0.3104166666666667" />
+        <entry key="app/src/main/res/layout/activity_listview_user.xml" value="0.3104166666666667" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.3104166666666667" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.3104166666666667" />
+        <entry key="app/src/main/res/layout/activity_piechart.xml" value="0.3104166666666667" />
+        <entry key="app/src/main/res/layout/activity_update_car.xml" value="0.3104166666666667" />
+        <entry key="app/src/main/res/layout/activity_update_user.xml" value="0.3104166666666667" />
+        <entry key="app/src/main/res/layout/activity_user_management.xml" value="0.3104166666666667" />
+        <entry key="app/src/main/res/layout/activity_user_update_info.xml" value="0.3104166666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

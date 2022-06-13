@@ -1,0 +1,12 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="Horizontal_margin">17dp</dimen>
+    <dimen name="Vertical_margin">17dp</dimen>
+    <dimen name="Vertical_spacing_navbar">9dp</dimen>
+    <dimen name="header_height_navbar">177dp</dimen>
+    <dimen name="fab_margin">15dp</dimen>
+    <dimen name="Padding_min_menu">21dp</dimen>
+    <dimen name="size_of_text">24sp</dimen>
+    <dimen name="marginLeft_layout">8dp</dimen>
+
+</resources>
