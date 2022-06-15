@@ -6,8 +6,8 @@
 
 ## Project Description:
 
-## The name of our application is CarShare. Our Project is based on a Car Sharing Service as the name suggests.
-## We are building an application that will provide access to all kinds of cars. The user will be allowed to book a car for a round trip by the hour or the day and pay only for the time they have booked for.
+## This Project is based on a Car Sharing Service as the name suggests.
+## this application will provide access to all kinds of cars. The user will be allowed to book a car for a round trip by the hour or the day and pay only for the time they have booked for.
 ## The application user will have to Sign-up or Sign-in as required. And once that is completed, they will be able to book cars instantly.
 ## Once the car has been booked, The Trip details, Information, Vehicle Details, Trip Time will be sent to the user.
 
