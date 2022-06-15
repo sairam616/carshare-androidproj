@@ -30,5 +30,3 @@ o	Finally, it will show in the user’s profile, the details of the booking like
 	The Rental rate,
 	From what time till what time, It is booked
 
- o	The Application will also allow the user to update his/her details as shown below.
- 
